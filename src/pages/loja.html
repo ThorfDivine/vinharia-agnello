@@ -3,6 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="Vinheiria Agnello, vinhos, vinícola, vinhos artesanais, vinhos brasileiros, degustação de vinhos, visita à vinícola, loja de vinhos, terroir, enoturismo, Santana de Parnaíba, São Paulo">
+  <meta name="description" content="Conheça a Vinheiria Agnello, uma vinheiria dedicada à tradição, ao terroir e à produção de vinhos artesanais. Descubra nossos vinhos, visitas e experiências.">
   <title>Vinheiria Agnello</title>
   <link rel="stylesheet" href="../css/style.css" />
 
@@ -280,6 +282,7 @@
             <button
               type="button"
               class="botao_dado"
+              onclick="informarNome()"
             >
               <span>Informar nome completo</span>
               <span id="nome_completo"></span>
@@ -288,6 +291,7 @@
             <button
               type="button"
               class="botao_dado"
+              onclick="informarQuantidade()"
             >
               <span>Escolher quantidade</span>
               <span id="quantidade"></span>
@@ -296,6 +300,7 @@
             <button
               type="button"
               class="botao_dado"
+              onclick="informarEmail()"
             >
               <span>Informar e-mail</span>
               <span id="email"></span>
@@ -304,6 +309,7 @@
             <button
               type="button"
               class="botao_dado"
+              onclick="informarTelefone()"
             >
               <span>Informar telefone</span>
               <span id="telefone"></span>
@@ -312,25 +318,28 @@
             <button
               type="button"
               class="botao_dado"
+              onclick="informarEndereco()"
             >
               <span>Informar endereço de entrega</span>
-              <span id="endereco_entrega"></span>
+              <span id="endereco"></span>
             </button>
 
             <button
               type="button"
               class="botao_dado"
+              onclick="informarVinhoEscolhido()"
             >
               <span>Informar vinho escolhido</span>
-              <span id="vinho_escolhido"></span>
+              <span id="vinho"></span>
             </button>
 
             <button
               type="button"
               class="botao_dado"
+              onclick="informarFormaPagamento()"
             >
               <span>Escolher forma de pagamento</span>
-              <span id="forma_pagamento"></span>
+              <span id="formaDePagamento"></span>
 
             </button>
 
@@ -340,6 +349,7 @@
             type="button"
             class="botao_confirmar"
             id="botao_confirmar_compra"
+            onclick="confirmarCompra()"
           >
             Confirmar Pedido
           </button>
@@ -416,6 +426,6 @@
     </div>
 
   </footer>
-
+  <script src="../js/script.js"></script>
 </body>
 </html>
