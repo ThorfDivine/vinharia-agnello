@@ -1,3 +1,4 @@
+@import url(efeitos.css);
 * {
   box-sizing: border-box;
   margin: 0;
@@ -281,8 +282,13 @@ body {
   color: #10221a;
 }
 
+.rodape_site .Contato{
+    transition: all ease-in-out 1s;
+}
+
 .rodape_site a {
   transition: opacity 0.12s ease;
+
 }
 
 .rodape_site strong {

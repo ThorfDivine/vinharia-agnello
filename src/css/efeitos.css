@@ -6,6 +6,15 @@
     animation: aumentarTamanho 2s infinite ease-in-out;
 }
 
+.nav_principal .lista_nav li {
+    transition: all 1s ease-in-out;
+}
+
+.nav_principal .lista_nav li:hover{
+    background-color: #f7f7f7;
+    border-left: 2px solid #0b3d32;
+}
+
 .detalhe_hero::before,
 .detalhe_hero::after {
     content: "";
