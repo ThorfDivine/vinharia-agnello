@@ -1,0 +1,90 @@
+.lista_nav a:hover {
+    opacity: 0.9;
+    transform: translateY(-1px);
+}
+.logo_marca {
+    animation: aumentarTamanho 2s infinite ease-in-out;
+}
+
+.detalhe_hero::before,
+.detalhe_hero::after {
+    content: "";
+    width: 35px;
+    height: 1px;
+    background: #c9a24a;
+}
+.tabela_horarios td:first-child{
+    transition: 0.5s ease-in-out;
+}
+.tabela_horarios td:first-child:hover {
+    border-left: 2px solid #0b3d32;
+} 
+.tabela_horarios td:last-child:hover {
+    border-right: 2px solid #0b3d32;
+} 
+.tabela_horarios tbody tr:last-child td:hover {
+    border-bottom: 2px solid #0b3d32;
+} 
+
+.tabela_horarios tbody tr:nth-child(even) {
+    background: #fbf8f3;
+}
+
+.tabela_horarios tbody tr:hover {
+    background: #f6efe6;
+    transition: all 0.7s ease-in-out;
+}
+.ornamento_hero_visitas span:not(.simbolo_uva) {
+    flex: 1;
+    height: 2px;
+    background: #c9a24a;
+}
+.cartao_vinho:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 30px rgba(16, 34, 26, 0.12);
+}
+
+.botao_comprar:hover {
+    background: #c9a24a;
+    color: #0b3d32;
+}
+
+.botao_dado:hover {
+    background: #f6efe6;
+    border-color: #c9a24a;
+}
+
+.link_hero_contato:hover,
+.botao_email:hover {
+    background: #ffffff;
+}
+
+.item_atendimento a:hover {
+    text-decoration: underline;
+}
+
+.campo_formulario input:focus,
+.campo_formulario select:focus,
+.campo_formulario textarea:focus {
+    outline: 1px solid #c9a24a;
+}
+
+.botao_enviar:hover {
+    background: #0b3d32;
+}
+
+@keyframes aumentarTamanho {
+    0% {
+        transform: scale(1.01);
+        rotate: 2deg;
+    }
+
+    50% {
+        transform: scale(0.9);
+        rotate: -2deg;
+    }
+    100% {
+        transform: scale(1.01);
+        rotate: 2deg;
+    }
+}

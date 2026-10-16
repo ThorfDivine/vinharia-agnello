@@ -88,11 +88,6 @@ body {
   transition: transform 0.12s ease, opacity 0.12s ease;
 }
 
-.lista_nav a:hover {
-  opacity: 0.9;
-  transform: translateY(-1px);
-}
-
 .botao_cta {
   background: #8b2e2e;
   color: #f3efe8;
