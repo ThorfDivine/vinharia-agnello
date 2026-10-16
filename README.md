@@ -1,4 +1,5 @@
 - Nome do projeto: Vinharia Agnello
 - Descrição resumida: Sistema de simulação de e-comerce e de administração da vinharia agenello
 - Desenvolvedor: Gustavo Batista de Oliveira Santos
+- Efeitos Visuais: Logo gira e aumenta o tamanho, tabela da tela visitas ganhou alguns efeitos em suas bordas, detalhes incrementados nos spans dos heros, animação em alguns botões, nav animado
 - Link do GitHub Pages: https://thorfdivine.github.io/vinharia-agnello/src/pages/loja.html
